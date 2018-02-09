@@ -56,14 +56,12 @@
     padding-right: 40px;
     }
 } */
-/*    #hvr-glow {
-    display: inline-flex;
+   #hvr-glow {
+    display: block;
     padding: 0;
-    margin: auto;
-    positon: center;
+    margin: 0;
     width: 100%;
-    padding-right: 40px;
-} */
+  }
 
 
 
