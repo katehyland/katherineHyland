@@ -46,7 +46,7 @@
     margin-left: 70px;
   }
 @media screen and (max-width: 375px) and (min-width: 414px) {
-   #hvr-glow {
+   li {
   display: inline-flex;
     padding: 0;
     margin: auto;
