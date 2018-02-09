@@ -46,21 +46,23 @@
     margin-left: 70px;
   }
 @media screen and (max-width: 375px) and (min-width: 414px) {
-    ul li  {
-          display: inline;  
-    padding: 0;     
-    margin: 0;       
-    width: 100%; 
+   #hvr-glow {
+  display: inline-flex;
+    padding: 0;
+    margin: auto;
+    positon: center;
+    width: 100%;
+    padding-right: 40px;
     }
 }
-   #hvr-glow {
+/*    #hvr-glow {
     display: inline-flex;
     padding: 0;
     margin: auto;
     positon: center;
     width: 100%;
     padding-right: 40px;
-}
+} */
 
 
 
