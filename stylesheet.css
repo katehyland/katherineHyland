@@ -45,7 +45,7 @@
   .email {
     margin-left: 70px;
   }
-@media screen and (max-width: 375px) and (min-width: 414px) {
+/* @media screen and (max-width: 375px) and (min-width: 414px) {
    li {
   display: inline-flex;
     padding: 0;
@@ -54,7 +54,7 @@
     width: 100%;
     padding-right: 40px;
     }
-}
+} */
 /*    #hvr-glow {
     display: inline-flex;
     padding: 0;
