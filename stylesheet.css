@@ -5,11 +5,10 @@ a {
   }
 .links {
     display: inline;
-    font-size: 20px;
+    text-align: center;
     font-family: 'Francois One', sans-serif;
     font-size: 20px;
-    text-align: center;
-   }
+  }
 
   .headings {
     display: block;
