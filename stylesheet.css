@@ -6,10 +6,6 @@
   transform: translate(-50%, -50%);
   }
   
-  li {
-    display: inline;
-  }
-
   a {
     color: white;
   }
@@ -24,15 +20,18 @@
     text-align: center;
     font-size: 40px;
     text-shadow: 2px 2px 5px grey; 
-  }
+   }
+  
   
   .links {
+    display: inline-block;
     font-size: 20px;
-    text-align: center;
-    
+   }
+  .headings {
+    display: block;
   }
   
-  .github {
+/*   .github {
     margin-left: 25px;
     margin-right: 75 px;
   }
@@ -44,7 +43,7 @@
   
   .email {
     margin-left: 70px;
-  }
+  } */
 /* @media screen and (max-width: 375px) and (min-width: 414px) {
    li {
   display: inline-flex;
