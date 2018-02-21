@@ -6,7 +6,7 @@ width: 100px;
 a {
     color: white;
     font-family: 'Francois One', sans-serif;
-/*     text-align: center; */
+    text-align: center;
   }
 .links {
     display: inline-block;
