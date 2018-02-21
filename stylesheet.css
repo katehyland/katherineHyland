@@ -1,18 +1,14 @@
-/* .links, .headings {
-margin: 0 auto;
-width: 100px; 
-}   */
-
 a {
     color: white;
     font-family: 'Francois One', sans-serif;
-    text-align: center;
+/*     text-align: center; */
   }
 .links {
     display: inline;
     font-size: 20px;
     font-family: 'Francois One', sans-serif;
     font-size: 20px;
+    text-align: center;
    }
 
   .headings {
