@@ -1,0 +1,112 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+a.navbar-brand, a.nav-link.js-scroll-trigger {
+  font-family: 'Contrail One', cursive;
+  color: #23A6D5;
+}
+section {
+  padding: 80px 0;
+}
+#mainNav {
+  background-color: #E73C7E;
+ }
+#aboutPic {
+ width: 100%;
+ height: auto;
+ padding-bottom: 30px;
+ }
+ .lead {
+   text-align: center;
+   font-family: 'News Cycle', sans-serif;
+   display: inline-block;
+ }
+ p, h1, h2 {
+  font-family: 'Contrail One', cursive;
+ }
+
+ #contactLinks {
+   text-align: center;
+   font-size: 30px;
+   font-family: 'News Cycle', sans-serif;
+ }
+
+ .aboutPicSpan {
+   float: left;
+   width: 50%;
+   padding-top: 60px;
+ }
+
+ .aboutParagraphSpan {
+   float: right;
+   width: 50%;
+ }
+  
+ #abouth2, #contacth2 {
+   color:  #E73C7E;
+ }
+ body {
+   background-color: rgba(240, 228, 228, 0.473);}
+ header {
+	/* width: 100wh;
+	height: 90vh; */
+	/* color: #fff; */
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 10000% 10000%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+  #aboutParagraphSpan {margin: 0 auto;}
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
