@@ -32,7 +32,8 @@ section {
  .lead {
    text-align: center;
    font-family: 'News Cycle', sans-serif;
-   display: inline-block;
+	 display: inline-block;
+	 padding-left: 30px;
  }
  p, h1, h2 {
   font-family: 'Contrail One', cursive;
@@ -75,9 +76,14 @@ section {
   #aboutParagraphSpan {margin: 0 auto;}
 }
 
-@media screen and (min-width:414px) and (max-width:640px) {
-  p.lead {padding-left: 0;}
-}
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+			.lead {
+				padding-left: 0;
+			}
+		}
 
 p.lead {
 	padding-left: 30px;
