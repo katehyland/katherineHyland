@@ -60,7 +60,8 @@ section {
    color:  #E73C7E;
  }
  body {
-   background-color: rgba(240, 228, 228, 0.473);}
+	 background-color: rgba(240, 228, 228, 0.473);}
+	 
  header {
 	/* width: 100wh;
 	height: 90vh; */
@@ -90,7 +91,7 @@ section {
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) { 
 			.lead, #aboutPic {
-				padding-left: -10px;
+				padding-left: 0;
 			}
 		}
 
