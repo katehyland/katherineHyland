@@ -75,6 +75,15 @@ section {
   #aboutParagraphSpan {margin: 0 auto;}
 }
 
+@media screen and (min-width:414px) and (max-width:640px) {
+  p.lead {padding-left: 0;}
+}
+
+p.lead {
+	padding-left: 30px;
+}
+
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
