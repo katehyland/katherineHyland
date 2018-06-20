@@ -85,10 +85,14 @@ section {
 			}
 		}
 
-p.lead {
-	padding-left: 30px;
-}
-
+		@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+			.lead, #aboutPic {
+				padding-left: -10px;
+			}
+		}
 
 @-webkit-keyframes Gradient {
 	0% {
